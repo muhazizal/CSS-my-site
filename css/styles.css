@@ -1,0 +1,173 @@
+body {
+    background-color: white;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+    font-size: 3.125rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Merienda One', cursive;
+    font-size: 1.875rem;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Merienda One', cursive;
+    font-size: 1.25rem;
+    color: #11999E;
+}
+
+p {
+    font-family: 'Zilla Slab', serif;
+    color: #40514e;
+    font-weight: bold;
+    line-height: 2;
+}
+
+a {
+    color: #11999E;
+    margin: 0 30px 0px 30px;
+    text-decoration: none;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #Eaf6f6;
+}
+
+a:active {
+    position: relative;
+    top: 1px;
+}
+
+hr {
+    color: rgb(185, 228, 228);
+    border-top: 7px dotted;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    width: 50px;
+    margin: 100px auto 100px auto;
+}
+
+.top-container {
+    background-color: #Eaf6f6;
+    position: relative;
+    padding-top: 75px;
+}
+
+.middle-container {
+    background-color: white;
+    position: relative;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    position: relative;
+    margin-top: 75px;
+    padding: 30px 0 20px 0;
+    line-height: 3;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+
+.mountain {
+    width: 500px;
+    height: 336px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.web-design-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile {
+    width: 25%;
+    margin: 100px auto 0px auto;
+}
+
+.contact-me {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    line-height: 3;
+}
+
+.btn {
+    -moz-box-shadow:inset 1px 1px 3px 0px #cae3fc;
+	-webkit-box-shadow:inset 1px 1px 3px 0px #cae3fc;
+	box-shadow:inset 1px 1px 3px 0px #cae3fc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	border-bottom-left-radius:10px;
+	text-indent:0;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:150px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 0px 0px #287ace;
+}
+.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background-color:#4197ee;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.aziz-img {
+    width: 200px;
+    height: 200px;
+}
